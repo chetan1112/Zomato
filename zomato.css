@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header{
+ width: 100;
+ height: 70vh;
+ overflow: hidden;
+ position: relative;
+ object-fit: cover;
+ margin: 7vh;
+}
+.header-image{
+    position: absolute;
+    top:-20vh;
+    z-index: -1;
+}
+.nav{
+    display: flex;
+    list-style: none;
+    margin: 10vh 10vw;
+    color: aliceblue;
+    justify-content: space-between;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-bar  {
+    display: flex;
+    color:white; 
+}
+a:active{
+    color:aliceblue;
+}
+
+ul li:hover {
+    background-color: gray;
+    color: rgb(172, 248, 248);
+  }
+  
+
+.nav-bar li  {
+    
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-left: 20%;
+  
+    list-style: none;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 7vh;
+    align-items: center;
+
+}
+.logo{
+    width: 20vw;
+}
+.head h3{
+    color: aliceblue;
+    font-size: 30px;
+}
+.search{
+    display: flex;
+    width: 55vw;
+    align-items: center;
+    justify-content:flex-start;
+    border-radius: 10px;
+    background-color:white;
+    padding: 5px 0;
+}
+.search input{
+    outline: none;
+    border: none;
+    width: 50%;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+.search p{
+    color: gray;
+    border-right: 1px solid  gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-right: 10px;
+}
+.search i{
+    color: rgb(40, 37, 32);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.sec-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13vh;
+}
+.box{
+    position: relative;
+    background-color: rgb(243, 240, 240);
+    width: 265px;
+    margin: 3px 5px;
+    box-shadow: 0 1px 2px gray;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.box-img{
+    width: 100%;
+    border-radius: 15px;
+    z-index: -1;
+    border-radius: 1px solid rgb(221, 221, 221);
+}
+.white{
+    position: absolute;
+    bottom: 3px;
+    align-items: center;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    width: 100%;
+    height: 25%;
+    z-index: 2;
+}
+.white p{
+    text-align: center;
+    color: rgb(56, 56, 56);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.7px;
+}
+a {
+    link:active;
+    color: aliceblue;
+    text-decoration: none;
+}
+/* a:visited {
+    color: green;
+  } */

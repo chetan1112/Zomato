@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(243, 222, 222);
+    
+  
+}
+
+h2{
+
+    /* align-items:center; */
+   text-align: center;
+   text-decoration:underline;
+    color: rgba(0, 0, 0, 0.953);
+    font-size: 2rem;
+}
+label,input {
+    display: block;
+    color: rgb(24, 23, 23);
+    float: left;
+
+}
+.button{
+    margin-right: 100;
+    margin-left: 0%;
+}
+label {
+    text-align: right;
+    width: 75px;
+    padding-right: 20px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    min-height: 10vh;
+    width: 100%;
+}
+#container{
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color:none;
+    height: fit-content;
+    width: fit-content;
+    border:solid rgb(17, 2, 23);
+    background-image: url("formpic.webp");
+
+}
+textarea{
+    border: double rgb(189, 35, 71);
+    background-color: rgb(228, 228, 228);
+
+}
